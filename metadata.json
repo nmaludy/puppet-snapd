@@ -1,18 +1,21 @@
 {
-  "name": "ethanhs-snapd",
-  "version": "1.2.0",
-  "author": "Ethan Smith",
+  "name": "nmaludy-snapd",
+  "version": "1.3.0",
+  "author": "Nick Maludy",
   "summary": "Install and manage the snapd service for installing and managing snap packages.",
   "license": "BSD-2-Clause",
-  "source": "https://github.com/ethanhs/puppet-snapd",
-  "project_page": "https://github.com/ethanhs/puppet-snapd",
-  "issues_url": "https://github.com/ethanhs/puppet-snapd/issues",
+  "source": "https://github.com/nmaludy/puppet-snapd",
+  "project_page": "https://github.com/nmaludy/puppet-snapd",
+  "issues_url": "https://github.com/nmaludy/puppet-snapd/issues",
   "dependencies": [
 
   ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Archlinux"
+    },
+    {
+      "operatingsystem": "Rocky"
     },
     {
       "operatingsystem": "Ubuntu",

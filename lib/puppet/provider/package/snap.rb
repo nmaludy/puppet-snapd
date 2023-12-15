@@ -5,8 +5,8 @@ require 'puppet/provider/package'
 Puppet::Type.type(:package).provide :snap, :parent => Puppet::Provider::Package do
   desc "Package management based on snap."
 
-  confine :operatingsystem => [ :ubuntu, :debian, :fedora ]
-  commands :installer => "/usr/bin/snap"
+  confine kernel: :linux
+  commands installer: "/usr/bin/snap"
   has_feature :purgeable
   has_feature :upgradeable
   has_feature :install_options
